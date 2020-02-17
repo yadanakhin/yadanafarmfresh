@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Farm Fresh</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="bootstrap/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<style type="text/css">
+  		#freshtxt{
+  			font-size: 60pt;
+  			font-family: Helvetica Neue;
+  			font-style: bold;
+  		}
+  		#qualitytxt{
+  			font-size: 36pt;
+  			font-family: Helvetica Neue;
+  			font-weight: medium;
+  			font-style: italic;
+  		}
+  		#promotxt{
+  			padding: 50px;
+  		}
+  		#promopic{
+  			height: 100%;
+  			width: 100%;
+  			padding: 30px;
+  		}
+  		#pic{
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 60%;
+  			height: 65%;
+  			padding: 20px;
+  		}
+  		#txt{
+  			font-size: 36pt;
+  			font-family: Helvetica Neue;
+  			font-weight: medium;
+  			font-style: italic;	
+  			text-align: center;
+  		}
+  		#header{
+  			 border-bottom: 0.5px black solid; 
+  			 background-color: white;
+  		}
+  		#search{
+  			padding-top: 30px;
+        width: 350px;
+  		}
+  		#searchbar{
+  			font-size: 18pt;
+  			font-family: Helvetica Neue;
+  			font-style: normal; 
+  			font-color: #526464;
+  		}
+  		#searchbtn{
+  			background-color: rgb(46,117,180);
+  			color: white;
+  		}
+  		#shoplogo{
+  			padding-top: 30px;
+  		}
+  	</style>
+</head>
+<body>
+	<div class="container-fluid" id="promotion">
+		<div class="row" id="header">
+				<div class="col-md-2">
+					<img src="images/screen1/FarmFresh Logo.png" width="200px">
+				</div>
+				<div class="col-md-9">
+					<form class="navbar-form navbar-left" action="/action_page.php">
+					     <div class="input-group" id="search">
+					        <input type="text" class="form-control" placeholder="Search for a product or brand" name="search" id="searchbar">
+						       <div class="input-group-btn" >
+						         <button class="btn btn-default" type="submit" id="searchbtn">
+						           <i class="glyphicon glyphicon-search"></i>
+						         </button>
+						       </div>
+		      			</div>
+		    		</form>
+				</div>
+				<div class="col-md-1">
+					<img src="images/screen1/shopping-cart.png" width="50px" id="shoplogo">
+				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="promotxt">
+				<p id="freshtxt">Fresh Food For<br> A Fresher You</p><br>
+				<p id="qualitytxt">Quality food, quality life.</p>
+			</div>
+			<div class="col-md-6">
+				<img src="images/screen2/Sideimage.png" id="promopic">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="images/screen2/clock.png" id="pic">
+				<p id="txt">Online anywhere</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/screen2/delivery-truck.png" id="pic">
+				<p id="txt">Fast Delivery</p>
+			</div>
+			<div class="col-md-4">
+				<img src="images/screen2/support.png" id="pic">
+				<p id="txt">24/7 Support</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
